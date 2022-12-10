@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Resume Template </title>
+    <style>
+        * {
+            margin: 0px;
+        }
+        body {
+            background-color: #4ca1cd;
+        }
+        #leftSideBar {
+            position: absolute;
+            height: 100vh;
+            width: 40vw;
+            background-color: #4ca1cd;
+        }
+        #facePic {
+            position: absolute;
+            height: 30vh;
+            width: 16vw;
+            margin-top: 10vh;
+            margin-left: 12vw;
+            background-image: url(defaultProfile.jpg);
+            background-size: 16vw 30vh;
+            border-radius: 50%;
+            border: solid 2px black;
+            box-shadow: 0px 0px 50px white;
+        }
+        #nameText {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 45vh;
+            font-weight: bold;
+            font-size: 5vh;
+        }
+        #skillsText {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            margin-top: 5vh;
+            font-weight: normal;
+            line-height: 4vh;
+            font-size: 3vh;
+        }
+        #rightMain {
+            background-color: #bababa;
+            margin-left: 40vw;
+            width: 60vw;
+            height: 100vh;
+        }
+        .bodyHeadText {
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            padding-top: 5vh;
+            padding-bottom: 1vh;
+            font-size: 4vh;
+            background-color: #bababa;
+        }
+        .bodySubText {
+            font-family: Arial, Helvetica, sans-serif;
+            padding-left: 2vw;
+            padding-right: 2vw;
+            font-size: 2vh;
+            background-color: #bababa;
+        }
+        #listMain {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            list-style: none;
+            background-color: #bababa;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="leftSideBar">
+        <div id="facePic"></div>
+        <h1 id="nameText"> Name Here </h1>
+        <h2 id="skillsText"> Enter Skills Here <br> ... <br> ... <br> ... </h2>
+    </div>
+    <div id="rightMain">
+        <h2 class="bodyHeadText"> About Me </h2>
+        <p class="bodySubText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris vitae ultricies leo integer. Vehicula ipsum a arcu cursus. Velit aliquet sagittis id consectetur purus ut faucibus. Sit amet nisl purus in. Duis at consectetur lorem donec massa. Justo eget magna fermentum iaculis eu non diam phasellus. Luctus venenatis lectus magna fringilla urna porttitor rhoncus. Quam quisque id diam vel. Penatibus et magnis dis parturient montes. Vel pretium lectus quam id leo in. Condimentum lacinia quis vel eros donec. Mauris pellentesque pulvinar pellentesque habitant morbi tristique. In pellentesque massa placerat duis ultricies lacus sed turpis tincidunt. Netus et malesuada fames ac turpis egestas. Non nisi est sit amet facilisis magna etiam tempor. A diam sollicitudin tempor id eu nisl nunc mi. Platea dictumst vestibulum rhoncus est pellentesque elit. </p>
+
+        <h2 class="bodyHeadText"> Education </h2>
+        <p class="bodySubText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris vitae ultricies leo integer. Vehicula ipsum a arcu cursus. </p>
+
+        <h2 class="bodyHeadText"> Work Expierence </h2>
+        <p class="bodySubText"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris vitae ultricies leo integer. Vehicula ipsum a arcu cursus. </p>
+
+        <h2 class="bodyHeadText"> Certifications </h2>
+        <ul id="listMain">
+            <li class="bodySubText">Certification One</li>
+            <li class="bodySubText">Certification Two</li>
+            <li class="bodySubText">Certification Three</li>
+        </ul>
+
+        <h2 class="bodyHeadText"> Contact Information </h2>
+        <ul id="listMain">
+            <li class="bodySubText">Phone : (123) 456-7890  </li>
+            <li class="bodySubText"> Email : example@gmail.com </li>
+
+        </ul>
+    </div>
+
+
+</body>
+</html>
